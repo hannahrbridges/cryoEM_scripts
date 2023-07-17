@@ -1,9 +1,11 @@
 # cryoEM_scripts
 python scripts for single particle cryoEM
 
-This script was written by Hannah R Bridges with help from ChatGPT for Python3
+Scripts was written by Hannah R Bridges with help from ChatGPT for Python3
 
-It finds the best box sizes and particle downsampling to use when you want to merge two single particle cryo-EM datasets of differing pixel sizes. This is useful if your software can only combine data with exactly the same pixel and box size.
+# compatible_box.py
+
+This script finds the best box sizes and particle downsampling to use when you want to merge two single particle cryo-EM datasets of differing pixel sizes. This is useful if your software can only combine data with exactly the same pixel and box size.
 
 # Notes on preparing your data for compatible_box.py:
 
