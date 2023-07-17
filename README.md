@@ -1,7 +1,7 @@
 # cryoEM_scripts
 python scripts for single particle cryoEM
 
-Scripts was written by Hannah R Bridges with help from ChatGPT for Python3
+Scripts written by Hannah R Bridges with help from ChatGPT for Python3
 
 # compatible_box.py
 
