@@ -3,6 +3,10 @@ python scripts for single particle cryoEM
 
 Scripts written by Hannah R Bridges with help from ChatGPT for Python3
 
+# box_sizes.py
+This script finds appropriate box sizes for your particles based on pixel size, particle diameter and FFT efficiency. It will save you a trip to the EMAN2 box size page each time!
+
+
 # compatible_box.py
 
 This script finds the best box sizes and particle downsampling to use when you want to merge two single particle cryo-EM datasets of differing pixel sizes. This is useful if your software can only combine data with exactly the same pixel and box size.
