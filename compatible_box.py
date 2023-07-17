@@ -6,9 +6,7 @@
 
 # Before running the script, ensure that you have properly calibrated the pixel sizes of your data collections to one another, for example in ChimeraX by adjusting one dataset voxel size until the fit-in-map returns the highest correlation
 # Only use the nominal pixel sizes provided by your facility if you have ensured that the 2 maps match perfectly without any rescaling in ChimeraX
-# If the calibrated pixel size is different from the nominal magnification used at the start of processing, motioncorr and CTF estimation can be re-run at the calibrated pixel size, and extraction performed from there.
-# Although this is not recommended by the software developers, if you use RELION, a similar result can be achieved faster by extracting from the original micrographs using the option --force_header to correct the pixel size, and manually adjusting the Cs value in the star file according to the following equation:
-# Cs = 2.7 * (nominal / calibrated)^4 (see https://relion.readthedocs.io/en/release-4.0/Reference/PixelSizeIssues.html).
+# If the calibrated pixel size is different from the nominal magnification used at the start of processing, motioncorr and CTF estimation need to be re-run at the calibrated pixel size, and extraction performed from there.
 # If you are extracting from motion corrected micrographs, the calibrated pixel size here refers to the binned pixel size (if binning was used)
 # If you are polishing in RELION, the calibrated pixel size refers to the raw images, which may be in super-resolution pixels
 # If particles will be extracted in CryoSPARC, the calibrated pixel size refers to that of the motion correction job (whether binning was used or not) and rescaled pixel sizes need to be identical beteeen pix1 and pix2 as it does not tolerate even small differences in merged dataset pixel sizes. This has not been extensively tested as I usually extract from RELION.
