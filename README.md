@@ -25,7 +25,7 @@ If you are polishing in RELION, the calibrated pixel size refers to the raw imag
 
 If particles will be extracted in CryoSPARC, the calibrated pixel size refers to that of the motion correction job (whether binning was used or not) and rescaled pixel sizes need to be identical beteeen pix1 and pix2 as it does not tolerate even small differences in merged dataset pixel sizes. This has not been extensively tested as I usually extract from RELION.
 
-# Usage hints for compatibly_box.py:
+# Usage hints for compatible_box.py:
 
 For the preferred box size, this is usually 1.5 - 2 times the longest diameter of your protein in Angstroms, then converted to pixels using the Apix. This can also be calculated using box_size.py.
 If a narrow range of box tolerance is given, the accuracy of the pixels size matching may be poorer.
