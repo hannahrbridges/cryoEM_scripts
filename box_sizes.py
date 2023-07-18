@@ -6,7 +6,7 @@ import math
 
 # user enters values for pixel size and particle diameter
 pixel_size = float(input("Enter pixel size: "))
-longest_particle_diameter = int(input("Enter longest particle diameter in Angstrom: "))
+particle_diameter = int(input("Enter longest particle diameter in Angstrom: "))
 
 #calculate the required box sizes with 1.5 or 2x particle diameter
 good_box_size_low = int(round((particle_diameter * 1.5) / pixel_size))
