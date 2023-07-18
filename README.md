@@ -28,6 +28,7 @@ If particles will be extracted in CryoSPARC, the calibrated pixel size refers to
 # Usage hints for compatible_box.py:
 
 For the preferred box size, this is usually 1.5 - 2 times the longest diameter of your protein in Angstroms, then converted to pixels using the Apix. This can also be calculated using box_size.py.
+
 If a narrow range of box tolerance is given, the accuracy of the pixels size matching may be poorer.
 
 If a wide range of tolerance is given, the box sizes with the most accurate pixel size matching may be too small (cut off high resolution information) or too large (include too much noise)
