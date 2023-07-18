@@ -36,3 +36,6 @@ fft_box_sizes = [
 ]
 #print the best box sizes for these particles
 print("Suggested FFT efficient box sizes:", fft_box_sizes)
+
+        # Add an input prompt to hold the console window open
+        input("Press Enter to exit...")
