@@ -23,7 +23,7 @@ If you are extracting from motion corrected micrographs, the calibrated pixel si
 
 If you are polishing in RELION, the calibrated pixel size refers to the raw images, which may be in super-resolution pixels
 
-If particles will be extracted in CryoSPARC, the calibrated pixel size refers to that of the motion correction job (whether binning was used or not) and rescaled pixel sizes need to be identical beteeen pix1 and pix2 as it does not tolerate even small differences in merged dataset pixel sizes. This has not been extensively tested as I usually extract from RELION.
+If particles will be extracted in CryoSPARC, the calibrated pixel size refers to that of the motion correction job (whether binning was used or not) and rescaled pixel sizes need to be identical or very close between pix1 and pix2 as it does not tolerate differences in merged dataset pixel sizes more than 4 decimal places.
 
 # Usage hints for compatible_box.py:
 
