@@ -9,7 +9,7 @@
 # If the calibrated pixel size is different from the nominal magnification used at the start of processing, motioncorr and CTF estimation need to be re-run at the calibrated pixel size, and extraction performed from there.
 # If you are extracting from motion corrected micrographs, the calibrated pixel size here refers to the binned pixel size (if binning was used)
 # If you are polishing in RELION, the calibrated pixel size refers to the raw images, which may be in super-resolution pixels
-# If particles will be extracted in CryoSPARC, the calibrated pixel size refers to that of the motion correction job (whether binning was used or not) and rescaled pixel sizes need to be identical beteeen pix1 and pix2 as it does not tolerate even small differences in merged dataset pixel sizes. This has not been extensively tested as I usually extract from RELION.
+# If particles will be extracted in CryoSPARC, the calibrated pixel size refers to that of the motion correction job (whether binning was used or not) and rescaled pixel sizes need to be identical or thr same to 4 decimal places beteeen pix1 and pix2 as it does not tolerate larger differences in merged dataset pixel sizes.
 
 # For the preferred box size, this is usually 1.5 - 2 times the longest diameter of your protein in Angstroms, then converted to pixels using the Apix 
 # If a narrow range of box tolerance is given, the accuracy of the pixels size matching may be poorer
